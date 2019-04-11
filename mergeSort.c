@@ -21,7 +21,7 @@ void merge(int *a, int *aux, int start, int mid, int end)
     }
     for(int p=start;p<end;p++)
     {
-        a[start]=aux[start];
+        a[p]=aux[p];
     }
 }
 void print(int *a, int t)
